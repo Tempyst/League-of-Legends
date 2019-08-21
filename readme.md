@@ -61,7 +61,7 @@ For players out there that are trying to improve their gameplay and odds of vict
 Because the data is limited to the North American region, addition data is needed to analyze other regions or all regions combined as a whole. A vast amount of data would need to be collect and more computing power to analyze. Our next step is to see if Riot will allow us to register for a production level API so our request limit is lifted where we can retrieve mass amount of data in a short amount of time. In addition, we plan on using Amazon Web Services to analyze the data since conventional computing power is no longer sufficient. We wish to create a model on a global scale to hopefully get a better picture at how all players across the globe is performing.
 
 <img src="/images/victory.png">
----
+
 
 ## Relevent Sources
 - [Riot Games](https://na.leagueoflegends.com/en/)
