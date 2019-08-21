@@ -24,7 +24,8 @@ Below is a map of "Summoner's Rift", the standard arena that players interact wi
 
 #### Champions
 League of Legends is a type of game called *Massive Online Battle Arena* (MOBA) where players are connected to a server to "battle" other players of the opposing team. In this game, a player only needs to control one champion which are given a set of skills to be utilized in the match. Example of Champions are shown below:
-
+<img src="images/champions.jpg">
+From Top left: Bard, Elise, Ezreal, Fiora, Jayce, Karma, Kog Maw, Nidalee, Veigar, Ziggs
 ---
 
 ## Executive Summary
@@ -49,6 +50,19 @@ There are some limitations for this dataset. As presented herein, we discovered 
 
 ---
 
-## Conclusion
+## Conclusion and Recommendations
+
+Our goal was to build a predictive model to determine the outcome of a particular match with a great deal of accuracy and we have successfully completed this task. With so much information collected from Riot, we believe that our model has learned the which feature was the most important in determining an outcome and it was the metric that most eSports analyst pay attention to: Kill-Death-Assist Ratio. In addition to that, destroying structions (turrets and inibitors) seems to have a strong affect in contributing to a victory because it would impact your opponent's psychology with a feeling of dread when their team is falling behind. Mental state is an important factor to remember whenever a competition between two groups is happening and any form of shock or unexpected events can lead to morale change. Unfortunately mental state is not something we can measure; we can only infer the effects of how a player reacts when introduced to these statistics during a game. Lastly, we discovered that the second cluster was another huge factor in determining a player's outcome. The second cluster assigned using KMeans was determined to be players that were lagging in terms of positive contribution. In fact, it appears KMeans has detected that these players were "bad players" and thus, had no chance of victory. 
+
+For players out there that are trying to improve their gameplay and odds of victory, be mindful of your risk assessment. Scoring a death count against your favor can have huge negative impacts in your games. For the past 10 years of this game's existence, the style of playing has changed a few times. Most of the changes were influenced by updates released by Riot but the player themselves are constantly trying to find new ways to make the game interesting. We believe that at the end of the day, having fun is the most important factor and enjoying the competition is the best reward.
+
+## Future Prospects and Going Forward
+
+Because the data is limited to the North American region, addition data is needed to analyze other regions or all regions combined as a whole. A vast amount of data would need to be collect and more computing power to analyze. Our next step is to see if Riot will allow us to register for a production level API so our request limit is lifted where we can retrieve mass amount of data in a short amount of time. In addition, we plan on using Amazon Web Services to analyze the data since conventional computing power is no longer sufficient. We wish to create a model on a global scale to hopefully get a better picture at how all players across the globe is performing.
 
 <img src="/images/victory.png">
+---
+
+## Relevent Sources
+- [Riot Games](https://na.leagueoflegends.com/en/)
+- [API](https://developer.riotgames.com/)
