@@ -23,9 +23,12 @@ Below is a map of "Summoner's Rift", the standard arena that players interact wi
 ---
 
 #### Champions
+
 League of Legends is a type of game called *Massive Online Battle Arena* (MOBA) where players are connected to a server to "battle" other players of the opposing team. In this game, a player only needs to control one champion which are given a set of skills to be utilized in the match. Example of Champions are shown below:
 <img src="images/champions.jpg">
+
 From Top left: Bard, Elise, Ezreal, Fiora, Jayce, Karma, Kog Maw, Nidalee, Veigar, Ziggs
+
 ---
 
 ## Executive Summary
