@@ -1,4 +1,4 @@
-<h1><center>League of Legends - Analysis of Players in North America</center></h1>
+<h1><center>League of Legends - Determinants of Match Outcomes Utilizing Player Stastistics</center></h1>
  
 <img src="/images/logo.png">
 
